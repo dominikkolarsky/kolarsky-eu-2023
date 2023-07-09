@@ -1,5 +1,5 @@
 import avatar from './img/call.png';
-import { FiGithub } from 'react-icons/fi';
+// import { FiGithub } from 'react-icons/fi';
 import { FaLinkedinIn } from 'react-icons/fa6';
 import { FaRegEnvelope } from 'react-icons/fa6';
 
@@ -32,14 +32,14 @@ function App() {
               <li>
                 <a
                   href="mailto:hello@kolarsky.eu"
-                  className="transition duration-300 ease-linear link grid place-content-center rounded-full p-2 text-3xl hover:scale-110 hover:bg-slate-900/10 hover:text-pink-700/70">
+                  className="link grid place-content-center rounded-full p-2 text-3xl transition duration-300 ease-linear hover:scale-110 hover:bg-slate-900/10 hover:text-pink-700/70">
                   <FaRegEnvelope />
                 </a>
               </li>
               <li>
                 <a
                   href="https://www.linkedin.com/in/kolarskydominik/"
-                  className="transition duration-300 ease-linear link grid place-content-center rounded-full p-2 text-3xl hover:scale-110 hover:bg-slate-900/10 hover:text-blue-700">
+                  className="link grid place-content-center rounded-full p-2 text-3xl transition duration-300 ease-linear hover:scale-110 hover:bg-slate-900/10 hover:text-blue-700">
                   <FaLinkedinIn />
                 </a>
               </li>
