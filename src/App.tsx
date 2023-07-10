@@ -6,26 +6,26 @@ import { FaRegEnvelope } from 'react-icons/fa6';
 function App() {
   return (
     <>
-      <div className="svg-bg grid min-h-screen content-center p-4">
+      <div className="svg-bg grid min-h-[100dvh] content-center p-4">
         {/* <nav>
             switch
           </nav> */}
-        <header className="card-bg transform3d group mx-auto w-full rounded-2xl p-6 text-center text-[#1d1d1f] sm:min-h-[280px] sm:w-[500px]">
-          <div className="mx-auto -mt-[105px] mb-8 grid h-36 w-36 place-content-center rounded-full">
+        <header className="card-bg transform3d group mx-auto w-full rounded-3xl p-6 text-center text-[#1d1d1f] sm:min-h-[280px] sm:w-[500px] lg:w-1/2 lg:max-w-3xl">
+          <div className="mx-auto -mt-[105px] mb-8 grid h-36 w-36 place-content-center rounded-full xl:w-60 xl:h-60 xl:-mt-40">
             <div className="relative transition duration-500 ease-linear group-hover:scale-105">
               <img
-                className="avatar animate-wiggle rounded-full drop-shadow-xl"
+                className="avatar animate-wiggle rounded-full drop-shadow-xl group-hover:animate-none"
                 src={avatar}
                 alt="avatar"
               />
-              <span className="absolute bottom-1 right-6 h-3.5 w-3.5 rounded-full border-2 border-white bg-green-400 dark:border-gray-800"></span>
+              <span className="absolute bottom-1 right-6 h-3.5 w-3.5 rounded-full border-2 border-white bg-green-400 dark:border-gray-800 xl:bottom-4 xl:right-11"></span>
             </div>
           </div>
           <div className="my-6">
-            <h1 className="text-3xl font-extrabold tracking-tight">
+            <h1 className="text-3xl font-extrabold tracking-tight xl:text-5xl">
               Dominik Kolarský
             </h1>
-            <h2 className="mt-2 text-2xl font-bold">Web developer</h2>
+            <h2 className="mt-2 text-2xl font-bold xl:text-4xl">Web developer</h2>
           </div>
           <div className="mb-3">
             <ul className="flex justify-center space-x-1">
