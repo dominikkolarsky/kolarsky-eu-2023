@@ -16,7 +16,7 @@ function App() {
               <img
                 className="avatar animate-wiggle rounded-full drop-shadow-xl group-hover:animate-none"
                 src={avatar}
-                alt="avatar"
+                alt=""
               />
               <span className="absolute bottom-1 right-6 h-3.5 w-3.5 rounded-full border-2 border-white bg-green-400 dark:border-gray-800 xl:bottom-4 xl:right-11"></span>
             </div>
