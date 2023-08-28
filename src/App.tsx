@@ -31,7 +31,7 @@ function App() {
             <ul className="flex justify-center space-x-1">
               <li>
                 <a
-                  href="mailto:hello@kolarsky.eu"
+                  href="mailto:kolarskydominik@gmail.com"
                   className="link grid place-content-center rounded-full p-2 text-3xl transition duration-300 ease-linear hover:scale-110 hover:bg-slate-900/10 hover:text-pink-700/70">
                   <FaRegEnvelope />
                 </a>
